@@ -31,8 +31,10 @@ namespace ADO.NET_Beispiel
 
                         Console.WriteLine("Category: {0} Description: {1}",categoryName, description);
                     }
+                    dr.Close();
                 }
             }
+            Console.ReadKey();
         }
     }
 }
